@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading Component should render standard loading 1`] = `"<article class=\\"polaris\\"><div class=\\"polaris-spinner\\"><div class=\\"polaris-cube polaris-cube--blue\\"></div><div class=\\"polaris-cube polaris-cube--green\\"></div><div class=\\"polaris-cube polaris-cube--pink\\"></div><div class=\\"polaris-cube polaris-cube--yellow\\"></div><div class=\\"polaris-message\\">waiting...</div></div></article>"`;

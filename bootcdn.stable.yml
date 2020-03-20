@@ -1,0 +1,12 @@
+# use bootcdn.cn as external resources host
+environment:
+  development:
+    - name: 'react'
+      linkage: 'https://lib.baomitu.com/react/16.8.6/umd/react.development.js'
+    - name: 'react-dom'
+      linkage: 'https://unpkg.com/@hot-loader/react-dom@16.8.6/umd/react-dom.development.js'
+  production:
+    - name: 'react'
+      linkage: 'https://lib.baomitu.com/react/16.8.6/umd/react.production.min.js'
+    - name: 'react-dom'
+      linkage: 'https://lib.baomitu.com/react-dom/16.8.6/umd/react-dom.production.min.js'
